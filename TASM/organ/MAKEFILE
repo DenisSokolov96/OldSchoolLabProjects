@@ -1,0 +1,5 @@
+organ.exe: organ.obj
+          tlink organ.obj
+
+organ.obj: organ.asm
+          tasm organ.asm
